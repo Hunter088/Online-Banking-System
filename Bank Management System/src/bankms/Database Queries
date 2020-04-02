@@ -1,0 +1,11 @@
+DATABASE:
+
+
+Create table for signup:
+create table signup(m_nam varchar(20),f_name varchar(20),date_of_Brith varchar(20),gender varchar(20),E_mail varchar(20),address varchar(20),marital varchar(20),pin_code varchar(20),city varchar(20),state varchar(20),card_no varchar(20),pin varchar(20) primary key);
+
+Create table for login:
+create table login (E_mail varchar(20),card_no varchar(20),pin varchar(20) primary key);
+
+Create table for bank:
+create table bank(E_mail varchar(20),card_no varchar(20),pin varchar(20) primary key,balance varchar(20));
