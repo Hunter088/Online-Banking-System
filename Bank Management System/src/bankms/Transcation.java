@@ -140,7 +140,5 @@ public class Transcation extends JFrame implements ActionListener{
         
     }
     
-    public static void main(String[] args){
-        new Transcation().setVisible(true);
-    }
+   
 }
